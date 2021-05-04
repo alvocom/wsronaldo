@@ -1,0 +1,24 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class TiposDadosDesafio {
+
+	public static void main(String[] args) {
+		String produto = JOptionPane.showInputDialog("Digite o produto");
+		double valorCompra = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor"));
+		int qtde = Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade"));
+		
+		double lucro = (valorCompra * 20) / 100;
+		double valorVenda = valorCompra + lucro;
+		double total = valorVenda * qtde;
+		double imposto = (total * 22) / 100;
+		double totalImposto = total + imposto;
+		
+		System.out.println("Nome do produto:" + produto);
+		System.out.println("Valor de venda:" + valorVenda);
+		System.out.println("Qauntidade:" + qtde);
+		System.out.println("Total:" + total);
+		
+	}
+}

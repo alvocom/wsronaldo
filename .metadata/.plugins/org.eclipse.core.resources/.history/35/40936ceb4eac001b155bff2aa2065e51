@@ -1,0 +1,24 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class TiposPrimitivos {
+	
+	public static void main(String[] args) {
+		
+		/* Tipos primitivos:
+		 * boolean = tipo lógico (tru/false)
+		 * char = 1 caracter (apóstofros)  'a' (char) // "a" (String)
+		 * byte = -128/+127
+		 * short = -32 mil / +32 mil
+		 * int = - 9 trilhões / + 9 trilhões
+		 * long = quintilhões
+		 * float = decimal
+		 * double = possui o dobro de precisão em relação ao float
+		 */
+	}
+	 float salario = Float.parseFloat(JOptionPane.showInputDialog("Salário:"));
+	 float fgts = salario * (float) 0.08; // ocorre o casting
+	 int numero = 5;
+	 byte resultado = (byte) (numero + 2); // ocorre o casting
+}

@@ -1,0 +1,26 @@
+package variaveis;
+
+public class ManipulaString {
+	public static void main(String[] args) {
+		
+		/*
+		 * churros => variável
+		 * churros() => função
+		 * Abc.churros() => método
+		 * Churros => classe
+		 */
+		
+		String email = "AlvomCOMBR@hotmail.COM";
+		System.out.println("Original: " + email);
+		System.out.println("Minúsculo: " + email.toLowerCase());
+		System.out.println("Maiúsculo: " + email.toUpperCase());
+		System.out.println("Qtde caracteres: " + email.length());
+		System.out.println("Tem arroba? " + email.contains("@"));
+		System.out.println("Posição do arroba: " + email.indexOf("@"));
+		System.out.println("Do 3º até o 5º " + email.substring(2,5));
+		System.out.println("Primeita metade " + email.substring(0, (email.length()/2)-1));
+		
+		
+	}
+
+}

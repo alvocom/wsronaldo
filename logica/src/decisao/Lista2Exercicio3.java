@@ -1,0 +1,37 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Lista2Exercicio3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int numero1 = Integer.parseInt(JOptionPane.showInputDialog("Número 1:"));
+		int numero2 = Integer.parseInt(JOptionPane.showInputDialog("Número 2:"));
+		String sinal =JOptionPane.showInputDialog("Digite o sinal de operação:");
+		
+		int resultado = 0;
+		
+		if (sinal == "+") {
+			resultado = numero1 + numero2;
+		}
+		else if (sinal.equals("-")) {
+			resultado = numero1 - numero2;
+		}
+		else if (sinal.equals("/")) {
+			resultado = numero1 / numero2;
+		}
+		else if (sinal.equals("*")) {
+			resultado = numero1 * numero2;
+		}
+		else {
+			System.out.println("Determine um operador válido");
+			return;
+		}
+			
+		System.out.println("Resultado ->" + resultado);
+		
+	}
+
+}
