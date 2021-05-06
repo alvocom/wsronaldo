@@ -16,16 +16,15 @@ public class Exercicio4Slide77 {
 
 
 		int contaMaior =0;
-		int media=0;
 		int cont = 0;
-		int expIdade=0;
 		int jovIdade=0;
 		int totIdade=0;
 		String expNome="";
 		String jovNome="";
 		String nome="";
 		short idade=0;
-
+        short expIdade=0;
+        
 		do {
 			nome = JOptionPane.showInputDialog("Qual seu nome").toUpperCase();
 			idade = Short.parseShort(JOptionPane.showInputDialog("Qual sua idade"));
@@ -46,10 +45,9 @@ public class Exercicio4Slide77 {
 
 		}while(JOptionPane.showConfirmDialog(null, "Deseja continuar a pesquisa?","Escolaridade",JOptionPane.YES_NO_OPTION)==0);
 
-		media = (totIdade) / cont;
-
+		
 		System.out.println("Maiores de idade: " + contaMaior);
-		System.out.println("Média: " + media);
+		System.out.println("Média: " + (totIdade) / cont);
 		System.out.println("Nome mais experiente: " + expNome);
 		System.out.println("Idade mais experiente: " + expIdade);
 		System.out.println("Nome mais jovem: " + jovNome);
