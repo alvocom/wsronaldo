@@ -9,6 +9,7 @@ package br.com.unixyz.modelo;
  * 
  */
 
+
 public class Aluno {
 
 	private int rm;
@@ -16,7 +17,30 @@ public class Aluno {
 	private String email;
 	private String fone;
 	private String cpf;
-
+	private Endereco endereco;
+    
+	public Aluno() {};
+	
+	public Aluno(int rm, String nome, String email, String fone, String cpf, Endereco endereco) {
+		super();
+		this.rm = rm;
+		this.nome = nome;
+		this.email = email;
+		this.fone = fone;
+		this.cpf = cpf;
+		this.endereco = endereco;
+	}
+	public Endereco getEndereco() {
+		return endereco;
+	}
+	public void setEndereco(Endereco endereco) {
+		this.endereco = endereco;
+	}
+	@Override
+	public String toString() {
+		return "Aluno [rm=" + rm + ", nome=" + nome + ", email=" + email + ", fone=" + fone + ", cpf=" + cpf
+				+ ", endereco=" + endereco + "]";
+	}
 	public int getRm() {
 		return rm;
 	}
@@ -47,17 +71,6 @@ public class Aluno {
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
-
-	public String toString() { //tbem pode fazer através do menu source
-		return 
-				"RM: " + rm + "\n" +
-				"Nome: " + nome + "\n" +
-				"email: " + email + "\n" +
-				"Fone: " + fone + "\n" +
-				"CPF:" + cpf;
-
-	}
-
 	public void setBasico(String nome,int rm) {
 		this.nome = nome;
 		this.rm = rm;
@@ -68,7 +81,6 @@ public class Aluno {
 				"RM: " + rm + "\n" +
 				"Nome: " + nome;
 	}
-
 	public String getUsuario() {
 		if (email.equals("@")) {
 			return  email.substring(0,email.indexOf("@"));
