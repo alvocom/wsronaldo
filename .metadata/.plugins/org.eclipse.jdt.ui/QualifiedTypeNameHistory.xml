@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="br.com.rubinhocar.modelo.Veiculo"/>
-<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="br.com.unixyz.modelo.Aluno"/>
+<fullyQualifiedTypeName name="java.awt.JobAttributes"/>
+<fullyQualifiedTypeName name="br.com.unixyz.modelo.Endereco"/>
+<fullyQualifiedTypeName name="br.com.lojagama.modelo.Cliente"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="br.com.lojagama.util.Magic"/>
 </qualifiedTypeNameHistroy>
