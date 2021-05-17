@@ -5,6 +5,12 @@
 <fullyQualifiedTypeName name="java.awt.JobAttributes"/>
 <fullyQualifiedTypeName name="br.com.unixyz.modelo.Endereco"/>
 <fullyQualifiedTypeName name="br.com.lojagama.modelo.Cliente"/>
-<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="br.com.lojagama.util.Magic"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="br.com.excecao.excecoes.MinhaExcecao"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
