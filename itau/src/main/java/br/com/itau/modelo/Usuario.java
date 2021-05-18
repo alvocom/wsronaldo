@@ -16,6 +16,7 @@ public class Usuario {
 	@Column(name="id")
 	private int id;
 	
+	
 	@Column(name="nome", length=50)
 	private String nome;
 	
